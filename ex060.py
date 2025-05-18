@@ -7,8 +7,9 @@ m = n - 1
 n = int(input('Digite um número inteiro: '))
 print('{}! = '.format(n), end='')
 while n > 0:
+    print('{}'.format(n), end='')
     if n != 0:
-        print('{}x'.format(n), end='')
+        print('x', end='')
         m = m * n
         n -= c
 print(' = {}'.format(m))
